@@ -1,0 +1,193 @@
+
+
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    
+}
+.signin{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    margin-right: 80px;
+}
+.signin a {
+    text-decoration: none;
+    color: #e48717;   
+
+}
+.button{
+    background-color: #555555;
+}
+.left-side{
+    margin-right: 10px;
+}
+
+
+
+
+
+.sub-header{
+    height: 50px;
+    border-width: 2px;
+    border-style: solid none none none;
+    border-color: rgba(256,256,256,.2);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+    
+}
+
+.About{ 
+
+    align-content: center;
+    
+    margin-left: 80px;
+    margin-right: 80px;
+
+
+}
+
+.about-info{
+    color: rgb(142, 145, 145);
+    text-align: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  
+}
+
+
+.flex-Header{
+    color: #e48717;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+
+
+
+.flexbox{
+  
+    display: block;
+    overflow: hidden;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    width: 94%;
+
+
+}
+
+.carousel{
+    width: 100%;
+    display:inline-block;
+    height: 400px;
+    overflow-x: scroll;
+    padding: 10px;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+
+.individual-box{
+    text-align: center;
+    background-color:  rgb(76, 73, 82);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: inline-block;
+    margin: 15px;
+    width: 250px;
+    height: 350px;
+
+}
+
+
+.individual-box:hover{
+    transform: scale(1.1);
+}
+
+
+
+.box{
+    box-sizing: border-box;
+    display: block;
+    height: 40.4219px;
+    padding-bottom: 0px;
+    padding-left: 25.56px;
+    padding-right: 25.56px;
+    padding-top: 25px;
+    width: 255.766px;
+
+}
+
+.box-title{
+
+    display: inline-block; 
+    font-size: 25px;
+    font-weight:500;
+    font-family: Roboto;
+    color:rgb(239 239 245); 
+   
+}
+.box-price{
+margin-top: 50px;
+color: rgb(183 180 191);
+font-family: Roboto;
+font-weight: 300;
+
+
+}
+.butterfly{
+    display: block;
+    margin-top: 70px;
+    position: relative;
+    height: auto;
+    width: auto;
+
+}
+
+#expensive a{
+
+    color: WHITE;
+    text-decoration: none;
+
+}
+
+#expensive a:hover{
+    color: blue;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px white;
+}
+
+
+#k a{
+    color: WHITE;
+    text-decoration: none;
+
+
+} 
+
+#k a:hover{
+   font-size: 20px;
+   font-weight: bold;
+}
